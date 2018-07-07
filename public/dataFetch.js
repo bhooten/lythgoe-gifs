@@ -3,9 +3,6 @@ $.get("https://api.apify.com/v1/3LbG8w5RRfFP8Nn5Q/crawlers/jkMfA3nhigsAuh9Dj/las
 
     let postTemplate = Handlebars.compile($('#postTemplate').html());
 
-    $('#intro').append("<h4><li>Wil Payne (along with Matt Lythoe) have become true legends (or \"gods\") within the Chief Delphi community. This website allows you to" +
-        "see Wil's latest 500 posts on Chief Delphi.</li></h4>");
-
     $(data).each(i => {
         var tweetText = data[i].text;
 
