@@ -1,19 +1,20 @@
 {
-  "name": "lythgoe-gifs",
-  "version": "0.3.0",
+  "name": "stuffwilsays",
+  "version": "0.1.0",
   "description": "Deep metaphors on the state of FRC",
   "engines": {
     "node": "8.9.1"
   },
-  "repository": "https://github.com/PChild/lythgoe-gifs",
-  "homepage": "https://lythgoe-gifs.herokuapp.com",
+  "repository": "https://github.com/bhooten/stuffwilsays",
+  "homepage": "https://stuffwilsays.herokuapp.com",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "npm": "^6.1.0"
   },
   "devDependencies": {
     "tape": "^4.7.0"
@@ -21,7 +22,9 @@
   "keywords": [
     "frc",
     "memes",
-    "lythgoe"
+    "wil",
+    "payne",
+    "paynetrain"
   ],
   "license": "GPL-3.0"
 }

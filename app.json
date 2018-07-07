@@ -1,7 +1,12 @@
 {
-  "name": "Lythgoe Gifs",
-  "description": "Winning CD, one meme at a time.",
-  "logo": "https://raw.githubusercontent.com/PChild/lythgoe-gifs/master/public/lythgo.png",
-  "keywords": ["frc", "gif", "meme", "lythgoe", "robotics"],
+  "name": "StuffWilSays",
+  "description": "Posts from the Mech Tech God himself!",
+  "keywords": [
+    "frc",
+    "wil",
+    "payne",
+    "mechtech",
+    "robotics"
+  ],
   "image": "heroku/nodejs"
 }

@@ -1,19 +1,7 @@
 {
-    "name": "Lythgoe Gifs",
-    "short_name": "Lythgoe Gifs",
-    "icons": [
-        {
-            "src": "/icons/android-chrome-192x192.png?v=2",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/icons/android-chrome-256x256.png?v=2",
-            "sizes": "256x256",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#fdb813",
-    "background_color": "#fdb813",
+    "name": "StuffWilSays",
+    "short_name": "StuffWilSays",
+    "theme_color": "#4fae62",
+    "background_color": "#4fae62",
     "display": "standalone"
 }

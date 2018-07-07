@@ -1,40 +1,35 @@
-<title>Lythgoe Gifs - Winning CD, one meme at a time.</title>
-<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png?v=2">
-<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=2">
-<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png?v=2">
-<link rel="manifest" href="/icons/site.webmanifest?v=2">
-<link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=2" color="#fdb813">
-<link rel="shortcut icon" href="/icons/favicon.ico?v=2">
-<meta name="apple-mobile-web-app-title" content="Lythgoe Gifs">
-<meta name="application-name" content="Lythgoe Gifs">
-<meta name="msapplication-TileColor" content="#fdb813">
+<title>StuffWilSays - CD's Best Posts</title>
+<meta name="apple-mobile-web-app-title" content="StuffWilSays">
+<meta name="application-name" content="StuffWilSays">
 <meta name="msapplication-config" content="/icons/browserconfig.xml?v=2">
-<meta name="theme-color" content="#fdb813">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.12/howler.core.min.js" integrity="sha256-TH9tjl8akK8lU3diG4NUP7T7MPRx1zoauL49z/4X46M=" crossorigin="anonymous"></script>
+<script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.12/howler.core.min.js"
+        integrity="sha256-TH9tjl8akK8lU3diG4NUP7T7MPRx1zoauL49z/4X46M=" crossorigin="anonymous"></script>
 <script src="/handlebars.js"></script>
-<link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
-<script id="gifTemplate" type="text/x-handlebars-template">
-  <div class="card border-0 m-2" style="min-width: 300px; max-width: 500px;">
-    <a target="_blank" href="{{imgSrc}}?v=out">
-      <img class="lazy card-img-top" data-src="{{imgSrc}}">
-    </a>
-    <div class="card-body m-0 p-0">
-      <h5 class="card-title">{{postDate}} in <a target="_blank" href="{{threadLink}}">{{threadTitle}}</a></h5>
-    </div>
-  </div>
-</script>
+<link rel="stylesheet" type="text/css" href="/stylesheets/main.css"/>
 <script id="postTemplate" type="text/x-handlebars-template">
-  <h4>
-      <li>
-        {{leaderText}} <i>"{{postText}}"</i> - {{postDate}} in <a href="{{threadLink}}">{{threadTitle}}</a>.
-  </li>
-  </h4>
+    <div class="card" style="margin-bottom: 15px; width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title">{{threadTitle}}</h5>
+            <h3 class="card-subtitle">Posted {{postDate}}</h3>
+            <p class="card-text">{{postText}}</p>
+            <button type="button" class="btn btn-outline-success" style="margin-right: 5px;"><a href="{{threadLink}}">Jump
+                    To Post</a></button>
+            <button type="button" class="btn btn-outline-primary tweet"><a
+                        href="https://twitter.com/intent/tweet?text={{tweetText}}">Share via Twitter</a></button>
+        </div>
+    </div>
 </script>
 <script type="text/javascript" src="/dataFetch.js"></script>

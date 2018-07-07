@@ -2,40 +2,33 @@
 <html>
 
 <head>
-  <% include ../partials/header.ejs %>
+    <% include ../partials/header.ejs %>
 </head>
 
 <body>
-  <% include ../partials/nav.ejs %>
+<% include ../partials/nav.ejs %>
 
-    <div class="jumbotron text-center helix-yellow">
-      <div class="container">
-        <div class="lang-logo helix-purple">
-          <img src="/lythgo.png">
-        </div>
-        <h1>Winning CD<br> One GIF at a time</h1>
-      </div>
-    </div>
-
+<div class="jumbotron text-center mechtech-green">
     <div class="container">
-      <div class="row">
-        <div class="col m-0 p-0">
-          <h2>Post Statistics</h2>
-          <hr>
-          <ul id="statList">
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col  m-0 p-0">
-          <h2>GIF Archive</h2>
-          <hr>
-          <div id="gifList" class="d-flex flex-row flex-wrap m-0 p-0">
-          </div>
-        </div>
-      </div>
+        <h1>StuffWilSays</h1>
+        <h3>Posts from the Mech Tech GOD Himself</h3>
     </div>
-    <% include ../partials/footer.ejs %>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div id="intro"></div>
+    </div>
+    <div class="row">
+        <div class="col  m-0 p-0">
+            <h2>Post List</h2>
+            <hr>
+            <div id="postList" class="d-flex flex-row flex-wrap m-0 p-0">
+            </div>
+        </div>
+    </div>
+</div>
+<% include ../partials/footer.ejs %>
 </body>
 
 </html>

@@ -1,2 +1,2 @@
-# [Lythgoe GIFs](https://lythgoe-gifs.herokuapp.com)
-Collecting the best of Chief Delphi one gif at a time
+# [Stuff Wil Says](https://stuffwilsays.herokuapp.com)
+Collecting the best of Wil Payne, one post at a time!
